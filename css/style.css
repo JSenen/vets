@@ -67,30 +67,50 @@ img {
 
 #navbar {
     background-color: var(--background-color);
-    color: white;
-    
-  }
-  
-  .container--navbar {
+    color: white;  
+}
+
+.container--navbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;  
+    padding: 5px;    
+}
+.navbar-icons__text  {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+       
+}
+
+.container-navsecond {
+    display: flex;
+    justify-content:flex-start;
     align-items: center;  
     padding: 12px;
     
   }
   
-  .container--navbar a {
-    color:#fff
+  .container-navsecond a {
+    color:var(--negro);
+    font-family: var(--fuenteHeading);
+    font-size: 2rem;
   }
   
-  .container--navbar li {
+  .container-navsecond li {
     list-style: none;
     display: inline-block;
     margin-left: 15px;
   
   }
   
-  .container--navbar .current  {
-    color: orange;
+  .container-navsecond .current  {
+    color: var(--background-color)
     
   }
+  
+    
+ 
