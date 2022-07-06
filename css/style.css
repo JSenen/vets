@@ -70,13 +70,13 @@ img {
     color: white;  
 }
 
-.container--navbar {
+.container--navbar { /*Flex de la barra de navegacion */
     display: flex;
     justify-content: space-around;
     align-items: center;  
     padding: 5px;    
 }
-.navbar-icons__text  {
+.navbar-icons__text  { /* Alineamos iconos dentro del felx padre */
     display: inline-block;
     align-items: center;
     justify-items: center;
@@ -111,6 +111,127 @@ img {
     color: var(--background-color)
     
   }
+  .logoOne img{
+      display: block;
+      height: 30rem;
+      width: 90rem;
+      margin:auto; /* Centramos imagen */
+  }
+  /* LINEA SEPARADORA */
+  .linea {
+    border-top: 3px solid var(--background-color);
+    height: 2px;
+    max-width: 1000px; /*Para que la linea no ocupe el ancho entero */
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+  /* NOSOTROS */
+  .nosotros {
+      padding:1rem 20rem;
+      text-align:justify;
+      color: #5e5656;
+      font-family: var(--fuenteParrafos);
+  }
+/* SERVICIOS */
+/* Efectos CSS junto con JavaScript para imagenes servicios.
+Tambien se importan fuentes de la API de google */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1361 {
+  font-family: 'Quattrocento', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1rem;
+  font-size: 14px;
+}
+.snip1361 * { /* aplicado a todos los elementos con la clase snip1361 */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img { /* aplicado a las imagenes */
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption { /*Aplicado al título */
+  position: absolute;
+  top: calc(100%);
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 25px 65px;
+}
+.snip1361 figcaption:before { /* Aplicado al titulo antes de .. */
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.snip1361 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.snip1361:hover figcaption, /* Aquí se aplica el script callaction de la carpeta js*/
+.snip1361.hover figcaption {
+  top: 50px;
+}
+/* Fin servicios con efectos Javascript */
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion--servicios {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  }
   
+  /* Se aplica a las imagenes en el contenedor servicios */
+  .presentacion--servicios__vacunas img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    display: block;
+  }
+  
+  /* Se aplica a los parrafos en el contenedor servicios */
+  .presentacion--servicios__vacunas p {
+    font-size: 24px;
+    font-family: var(--fuente);
+    color: var(--azul);
+    text-align: center;
+  }
     
  
