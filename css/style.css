@@ -62,6 +62,14 @@ img {
 .centrar-texto {
     text-align: center;
 }
+/* LINEA SEPARADORA */
+.linea {
+  border-top: 3px solid var(--background-color);
+  height: 2px;
+  max-width: 900px; /*Para que la linea no ocupe el ancho entero */
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
 
 /** HEADER **/
 
@@ -117,14 +125,7 @@ img {
       width: 90rem;
       margin:auto; /* Centramos imagen */
   }
-  /* LINEA SEPARADORA */
-  .linea {
-    border-top: 3px solid var(--background-color);
-    height: 2px;
-    max-width: 1000px; /*Para que la linea no ocupe el ancho entero */
-    padding: 0;
-    margin: 20px auto 0 auto;
-  }
+  
   /* NOSOTROS */
   .nosotros {
       padding:1rem 20rem;
@@ -147,7 +148,7 @@ Tambien se importan fuentes de la API de google */
   width: 100%;
   color: #141414;
   text-align: left;
-  line-height: 1rem;
+  line-height: 1.5rem; /*Interlineado*/
   font-size: 14px;
 }
 .snip1361 * { /* aplicado a todos los elementos con la clase snip1361 */
@@ -190,7 +191,7 @@ Tambien se importan fuentes de la API de google */
   text-transform: uppercase;
 }
 .snip1361 p {
-  font-size: 0.9em;
+  font-size: 3em;
   letter-spacing: 1px;
   opacity: 0.9;
 }
@@ -212,6 +213,9 @@ Tambien se importan fuentes de la API de google */
     align-items: center;
     justify-content: center;
 }
+.services h2 {
+  color:var(--background-color);
+}
 .presentacion--servicios {
     display: flex;
     justify-content: space-around;
@@ -228,7 +232,7 @@ Tambien se importan fuentes de la API de google */
   
   /* Se aplica a los parrafos en el contenedor servicios */
   .presentacion--servicios__vacunas p {
-    font-size: 24px;
+    font-size: 16px;
     font-family: var(--fuente);
     color: var(--azul);
     text-align: center;
