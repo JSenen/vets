@@ -7,7 +7,9 @@
     --blanco:#FFFFFF;
     --negro:#000000;
     --rojo:#eb0505;
-    --background-color:#53995c;
+    /* --background-color:#53995c;*/
+    --background-color:#1f839c;
+    
 }
 
 html {
@@ -219,7 +221,7 @@ Tambien se importan fuentes de la API de google */
 .presentacion--servicios {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 90px;
   }
   
   /* Se aplica a las imagenes en el contenedor servicios */
