@@ -86,7 +86,7 @@ img {
     align-items: center;  
     padding: 5px;    
 }
-.navbar-icons__text  { /* Alineamos iconos dentro del felx padre */
+.navbar-icons__text  { /* Alineamos iconos dentro del flex padre */
     display: inline-block;
     align-items: center;
     justify-items: center;
@@ -239,5 +239,39 @@ Tambien se importan fuentes de la API de google */
     color: var(--azul);
     text-align: center;
   }
+  
+  /* RESUMEN SERVICIOS */
+
+  .resumen_servicios {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 2rem;
     
+  }
+  .resumen_servicios__cuadro  { /* Alineamos iconos dentro del flex padre */
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+       
+}
+.resumen_servicios__cuadro2  { /* Alineamos iconos dentro del flex padre */
+  display: inline-block;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  line-height: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #7dbab9;
+     
+}
+.resumen_servicios__texto{
+  color:var(--blanco);
+
+}
  
