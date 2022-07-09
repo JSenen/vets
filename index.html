@@ -174,8 +174,92 @@
     <div clas="Team_cabecera">
         <h2>EQUIPO</h2>
     </div>
-    
   </div>
+
+  <div class="ourcenter_contenedor">
+    <div class="ourcenter_contenedor-text">
+      <h2>NUESTRAS INSTALACIONES</h2>
+      <!-- SLIDER FOTOS -->
+  <div class="slideshow-container">
+
+    <!-- Contenedores imagenes con numero -->
+    <div class="mySlides fade">
+        <div class="numerodefoto">1 / 9</div>
+        <img src="./img/slider1.png" style="width:100%">
+        <div class="text">1</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numerodefoto">2 / 9</div>
+        <img src="./img/slider2.png" style="width:100%">
+        <div class="text">2</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numerodefoto">3 / 9</div>
+        <img src="./img/slider3.png" style="width:100%">
+        <div class="text">3</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">4 / 9</div>
+        <img src="./img/slider4.png" style="width:100%">
+        <div class="text">4</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">5 / 9</div>
+        <img src="./img/slider5.png" style="width:100%">
+        <div class="text">5</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">6 / 9</div>
+        <img src="./img/slider6.png" style="width:100%">
+        <div class="text">6</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">7 / 9</div>
+        <img src="./img/slider6.png" style="width:100%">
+        <div class="text">7</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">8 / 9</div>
+        <img src="./img/slider8.png" style="width:100%">
+        <div class="text">8</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numerodefoto">9 / 9</div>
+        <img src="./img/slider9.png" style="width:100%">
+        <div class="text">9</div>
+    </div>
+
+    <!-- Botones siguiente y anterior-->
+    <!-- Utilizamos el evento onclick para llamar a la funcion plusSlides -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <!-- Llamada a la funcion plusSlides, resta 1 para ir hacia atras-->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- Llamada a la funcion plusSlides, suma 1 para ir hacia delante-->
+</div>
+<br>
+
+<!-- circulos -->
+<!-- Funcion currentSlide(numero) indica la foto en la que se encuentra para generar el indice-->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+  
+<footer>
+  
+</footer>
+  
+
   <script  src="./js/services.js"></script>
+  <script  src="./js/slider.js"></script>
 </body>
 </html>

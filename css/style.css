@@ -287,6 +287,7 @@ Tambien se importan fuentes de la API de google */
     color: var(--blanco);
     align-items: center;
     justify-content: center;
+    margin-top: 1.5rem;
     
 }
 .Team h2{
@@ -294,6 +295,126 @@ Tambien se importan fuentes de la API de google */
   color: var(--background-color);
 
 }
+
+/* OURCENTER */
+
+.ourcenter_contenedor {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--blanco);
+  margin-top: 1rem;
+  max-width: 1000px;
+  margin:auto;
+  margin-top: 1.5rem;
+}
+
+/*SLIDER*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Esconder imagenes por defecto */
+.mySlides {
+  display: none;
+}
+
+/* Botones antes y despues */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Posicionar boton siguiente a la derecha */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Cursor encima un efecto de oscurecer en negro */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Texto del titulo de la foto */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Numero de la foto */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Los circulos indicadores */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Animación de una foto a otra*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
 
 
 
