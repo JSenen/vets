@@ -249,6 +249,7 @@ Tambien se importan fuentes de la API de google */
     align-items: center;
     background-color: var(--background-color);
     padding: 2rem;
+    color:var(--blanco);
     
   }
   .resumen_servicios__cuadro  { /* Alineamos iconos dentro del flex padre */
@@ -274,4 +275,26 @@ Tambien se importan fuentes de la API de google */
   color:var(--blanco);
 
 }
+/* TEAM */
+
+.Team {
+  display: flex;
+  background-image: url(../img/team.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat; /*Img no se repita*/
+    background-position: center center; /* img se centra al hacer venana más pequeña*/
+    color: var(--blanco);
+    align-items: center;
+    justify-content: center;
+    
+}
+.Team h2{
+  font-size: 10rem;
+  color: var(--background-color);
+
+}
+
+
+
  
