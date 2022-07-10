@@ -191,6 +191,8 @@ Tambien se importan fuentes de la API de google */
   line-height: 1.2em;
   font-family: 'Oswald', Arial, sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  color: var(--background-color);
 }
 .snip1361 p {
   font-size: 3em;
@@ -205,11 +207,11 @@ Tambien se importan fuentes de la API de google */
   right: 0;
   z-index: 2;
 }
-.snip1361:hover figcaption, /* Aquí se aplica el script callaction de la carpeta js*/
+.snip1361:hover figcaption, /* Aquí se aplica el script callaction */
 .snip1361.hover figcaption {
-  top: 50px;
+  top: 70%;
 }
-/* Fin servicios con efectos Javascript */
+/* Fin servicios con efectos  */
 .services {
     display: flex;
     align-items: center;
@@ -220,21 +222,23 @@ Tambien se importan fuentes de la API de google */
 }
 .presentacion--servicios {
     display: flex;
-    justify-content: space-around;
-    margin: 90px;
+    justify-content:center;
+    flex-wrap: wrap;
   }
   
   /* Se aplica a las imagenes en el contenedor servicios */
-  .presentacion--servicios__vacunas img {
+  .presentacion--servicios_cuadro img {
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     display: block;
+    border-radius: 50%;
   }
   
   /* Se aplica a los parrafos en el contenedor servicios */
-  .presentacion--servicios__vacunas p {
+  .presentacion--servicios_cuadro p {
     font-size: 16px;
+    font-weight: bold;
     font-family: var(--fuente);
     color: var(--azul);
     text-align: center;
@@ -287,7 +291,7 @@ Tambien se importan fuentes de la API de google */
     color: var(--blanco);
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     
 }
 .Team h2{
@@ -415,7 +419,25 @@ Tambien se importan fuentes de la API de google */
   }
 }
 
+/* FOOTER */
 
+.footer {
+  display: flex;
+  background-color: var(--background-color);
+  margin-top: 2.5rem;
+  color: var(--blanco);
+  align-items: center;
+}
+.footer-iconos__text {
+  display: inline-block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    line-height: 0.5rem;
+    padding-left: 0.5rem;
+}
 
-
+.footer-iconos i:hover{
+  color:#eb0505;
+}
  
