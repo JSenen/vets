@@ -592,3 +592,17 @@ Tambien se importan fuentes de la API de google */
   max-width: 20rem;
 }
 
+/* PAGE LPD */
+.container-lpd{
+  display: block;
+  background-color:var(--blanco);
+    border-radius: 5px;
+    border-color: var(--background-color);
+    border: solid 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 1200px;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 10rem;
+}
+
