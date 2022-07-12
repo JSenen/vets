@@ -560,3 +560,35 @@ Tambien se importan fuentes de la API de google */
   margin-top: 20px;
   width: 100%;
 }
+
+
+/** PAGE TEAM**/
+/** HEADER TEAM **/
+.header_team {
+  background-image: url(../img/team.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat; /*Img no se repita*/
+    background-position: center center; /* img se centra al hacer venana más pequeña*/
+}
+.team-container{
+  width: 50%;
+  margin: 20px auto;
+  background-color: var(--background-color);
+  color: #fff;
+  padding: 15px;
+ 
+}
+.team-container__ficha{
+  margin-top: 5rem;
+}
+.team-container__img{
+  float: left;
+  margin-right: 15px;
+  
+}
+.team-container__img img{
+  border-radius: 50%;
+  max-width: 20rem;
+}
+
