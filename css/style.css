@@ -309,7 +309,7 @@ Tambien se importan fuentes de la API de google */
   background-color: var(--background-color);
   color: var(--blanco);
   margin-top: 1rem;
-  max-width: 1000px;
+  max-width: 600px;
   margin:auto;
   margin-top: 1.5rem;
 }
@@ -369,7 +369,7 @@ Tambien se importan fuentes de la API de google */
 /* Numero de la foto */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -572,15 +572,19 @@ Tambien se importan fuentes de la API de google */
     background-position: center center; /* img se centra al hacer venana más pequeña*/
 }
 .team-container{
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  margin: 20px auto;
+  margin:10px auto;
   background-color: var(--background-color);
   color: #fff;
   padding: 10px;
+  align-items: center;
+  justify-content: center;
  
 }
 .team-container__ficha{
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .team-container__img{
   float: left;
@@ -589,7 +593,7 @@ Tambien se importan fuentes de la API de google */
 }
 .team-container__img img{
   border-radius: 50%;
-  max-width: 15rem;
+  width: 150px;
 }
 
 /* PAGE LPD */
