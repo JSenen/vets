@@ -589,7 +589,7 @@ Tambien se importan fuentes de la API de google */
 }
 .team-container__img img{
   border-radius: 50%;
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 /* PAGE LPD */
