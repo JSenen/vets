@@ -55,6 +55,16 @@ img {
 
 /** Utilidades **/
 
+.loader { /*Imagen preloader*/
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('img/preload.gif') 50% 50% no-repeat rgb(249,249,249);
+  opacity: .8;
+}
 .no-margin {
     margin: 0  /*Elimina margenes*/
 }
@@ -562,39 +572,56 @@ Tambien se importan fuentes de la API de google */
 }
 
 
-/** PAGE TEAM**/
-/** HEADER TEAM **/
-.header_team {
-  background-image: url(../img/team.jpg);
-    height: 60rem;
-    background-size: cover;
-    background-repeat: no-repeat; /*Img no se repita*/
-    background-position: center center; /* img se centra al hacer venana más pequeña*/
-}
-.team-container{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin:10px auto;
+/** PAGE TEAM**/ 
+/* ZONA TESTIMONIOS */
+.testimonial-container {
   background-color: var(--background-color);
   color: #fff;
-  padding: 10px;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 30px 30px;
+  max-width: 900px;
+  position: relative;
+}
+
+
+
+.testimonial {
+  line-height: 2rem; /*Interlineado testimonios*/
+  font-family: var(--fuenteParrafos);
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
   align-items: center;
   justify-content: center;
- 
-}
-.team-container__ficha{
-  margin-top: 4rem;
-}
-.team-container__img{
-  float: left;
-  margin-right: 15px;
   
 }
-.team-container__img img{
+
+.user .user-image { /* imagen del usuario testimonio */
   border-radius: 50%;
+  height: 150px;
   width: 150px;
+  object-fit: cover;
+  margin-top: 30px;
 }
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+
 
 /* PAGE LPD */
 .container-lpd{

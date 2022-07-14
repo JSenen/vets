@@ -15,8 +15,17 @@
   <!-- Link Fontawesome-->
   <script src="https://kit.fontawesome.com/f72dd1dac9.js" crossorigin="anonymous"></script>
   <title>Vets</title>
+  <!-- JQuery mensaje cokkies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
+  <div class="loader"></div>  <!-- Imagen de preloader-->
+  <script type="text/javascript">
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+    });
+    </script>
   <header>
     <!-- MENU NAVEGACION y LOGO -->
     <nav id="navbar">
@@ -401,6 +410,41 @@
 <script  src="./js/services.js"></script>
   <script  src="./js/slider.js"></script>
   <script src="./js/validacionformulario.js"></script>
+  <div id="div-cookies" style="display: none;">
+    Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+    <a hreflang="es" href="lpd.html">Política de Privacidad</a>.
+    <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+        Acepto el uso de cookies
+    </button>
+</div>
+<style>
+#div-cookies {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 15px gray;
+    padding: 7px;
+    text-align: center;
+    z-index: 99;
+}
+</style>
+<script>
+function checkAcceptCookies() {
+    if (localStorage.acceptCookies == 'true') {
+    } else {
+        $('#div-cookies').show();
+    }
+}
+function acceptCookies() {
+    localStorage.acceptCookies = 'true';
+    $('#div-cookies').hide();
+}
+$(document).ready(function() {
+    checkAcceptCookies();
+});
+</script>
 </body>
 </html>
 
