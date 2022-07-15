@@ -58,6 +58,8 @@ b {
 
 /** Utilidades **/
 
+
+
 .loader { /*Imagen preloader*/
   position: fixed;
   left: 0px;
@@ -142,11 +144,16 @@ b {
   }
   
   /* NOSOTROS */
+  
   .nosotros {
-      padding:1rem 20rem;
-      text-align:justify;
+    align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  
       color: #5e5656;
       font-family: var(--fuenteParrafos);
+      font-size: 1.5rem;
   }
 /* SERVICIOS */
 /* Efectos CSS junto con JavaScript para imagenes servicios.
@@ -603,6 +610,7 @@ Tambien se importan fuentes de la API de google */
   margin: 10px auto;
   padding: 30px 30px;
   max-width: 1000px; 
+  
 }
 .testimonial-container2 {
   display:flex;
@@ -621,18 +629,20 @@ Tambien se importan fuentes de la API de google */
 .testimonial-container_user img,
 .testimonial-container_user2 img{
   border-radius: 50%;
-  max-width: 150px;
-  max-height: 150px;
- 
+  max-width: auto;
+
 }
 
 .testimonial-container_text {
+  font-family: var(--fuenteParrafos);
+  font-size: 2rem;
   margin-left: 1.2rem;
   text-align: justify;
+  margin:auto 30px;
 }
 .testimonial-container_text2 {
   margin-right: 1.2rem;
   text-align: justify;
+  margin:auto 30px;
 }
-
 
