@@ -579,67 +579,60 @@ Tambien se importan fuentes de la API de google */
 
 
 /** PAGE TEAM**/ 
+
+.header_team {
+  display: flex;
+  background-image: url(../img/team.jpg);
+    height: 60rem;
+    background-size:cover;
+    background-repeat: no-repeat; /*Img no se repita*/
+    background-position: center center; /* img se centra al hacer venana más pequeña*/
+    color: var(--blanco);
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;  
+}
+
+
 /* ZONA TESTIMONIOS */
 .testimonial-container {
+  display:flex;
   background-color: var(--background-color);
   color: #fff;
   border-radius: 15px;
   margin: 10px auto;
   padding: 30px 30px;
-  max-width: 900px;
-  position: relative;
+  max-width: 1000px; 
 }
-
-
-
-.testimonial {
-  line-height: 2rem; /*Interlineado testimonios*/
-  font-family: var(--fuenteParrafos);
-  font-size: 2rem;
-  text-align: justify;
-}
-
-.user {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.testimonial-container2 {
+  display:flex;
+ flex-direction: row-reverse;
+  background-color: var(--blanco);
+  color: var(--negro);
+  border-radius: 15px;
+  border:solid 1px var(--background-color);
+  margin: 10px auto;
+  padding: 30px 30px;
+  max-width: 1000px; 
   
 }
 
-.user .user-image { /* imagen del usuario testimonio */
+
+.testimonial-container_user img,
+.testimonial-container_user2 img{
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  margin-top: 30px;
+  max-width: 150px;
+  max-height: 150px;
+ 
 }
 
-.user .user-details {
-  margin-left: 10px;
+.testimonial-container_text {
+  margin-left: 1.2rem;
+  text-align: justify;
+}
+.testimonial-container_text2 {
+  margin-right: 1.2rem;
+  text-align: justify;
 }
 
-.user .username {
-  margin: 0;
-}
-
-.user .role {
-  font-weight: normal;
-  margin: 10px 0;
-}
-
-
-
-/* PAGE LPD */
-.container-lpd{
-  display: block;
-  background-color:var(--blanco);
-    border-radius: 5px;
-    border-color: var(--background-color);
-    border: solid 2px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  width: 1200px;
-  margin: auto;
-  margin-top: 5rem;
-  padding: 10rem;
-}
 
