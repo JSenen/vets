@@ -319,12 +319,16 @@ Tambien se importan fuentes de la API de google */
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
-  color: var(--blanco);
+  background-color: var(--blanco);
+  color: var(--background-color);
   margin-top: 1rem;
-  max-width: 600px;
+  max-width: 500px;
   margin:auto;
   margin-top: 1.5rem;
+}
+.ourcenter_contenedor h2 {
+  font-size: 3rem;
+  text-align: center;
 }
 
 /*SLIDER*/
