@@ -110,6 +110,11 @@ b {
     padding-left: 0.5rem;
        
 }
+.navbar-icons__img  { 
+  display: inline-flex;
+  max-width:1.5%;
+}
+
 
 .container-navsecond {
     display: flex;
