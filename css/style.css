@@ -294,6 +294,7 @@ Tambien se importan fuentes de la API de google */
     padding-left: 0.5rem;
        
 }
+
 .resumen_servicios__cuadro2  { /* Alineamos iconos dentro del flex padre */
   display: inline-block;
   align-items: center;
