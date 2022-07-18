@@ -110,13 +110,15 @@ b {
     padding-left: 0.5rem;
        
 }
-.navbar-icons__img  { 
-  display: flex;
-    justify-content:left;
-    
-    max-width: 1.75%;
- 
+.navbar-icons__comment { 
+  display: inline-block;
   
+  justify-content: space-around;
+  align-items: center;  
+  padding: 5px;
+}
+.navbar-icons__comment img {
+  max-width: 125px;
 }
 
 
