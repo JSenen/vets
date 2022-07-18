@@ -111,8 +111,12 @@ b {
        
 }
 .navbar-icons__img  { 
-  display: inline-flex;
-  max-width:1.5%;
+  display: flex;
+    justify-content:left;
+    
+    max-width: 1.75%;
+ 
+  
 }
 
 
