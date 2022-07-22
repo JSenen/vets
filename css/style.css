@@ -7,7 +7,6 @@
     --blanco:#FFFFFF;
     --negro:#000000;
     --rojo:#eb0505;
-    /* --background-color:#53995c;*/
     --background-color:#1f839c;
     
 }
@@ -460,9 +459,10 @@ Tambien se importan fuentes de la API de google */
   background-color: var(--background-color);
   margin-top: 2.5rem;
   color: var(--blanco);
-  align-items: center;
-}
+  align-items:center;
+  justify-content:space-evenly;
 
+}
 
 /* CONTACTO Y FORMULARIO */
 
@@ -646,7 +646,7 @@ Tambien se importan fuentes de la API de google */
   margin:auto 30px;
 }
 
-/** ICON8.COM */
+/** ICON8.COM  icono Instagram www.icon8.com */
 .icons8-instagram { 
 display: inline-block;
 width: 100px;
