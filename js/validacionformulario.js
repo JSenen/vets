@@ -77,7 +77,6 @@ form.addEventListener('submit', function(e) {
   //Condiciónes campos requeridos
   if(!checkRequired([nombre, email, telefono, pregunta])){
     checkLength(nombre, 3, 15); /*comprueba longitud nombre */
-    checkLength(telefono, 9, 10); /*Comprueba longitud telefono */
     checkLength(pregunta,20,200); /* Comprueba longitud texto introducido. Minimo 20, maximo 200 */
     checkEmail(email); /*Comprueba mail */
 

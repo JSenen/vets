@@ -531,12 +531,12 @@ Tambien se importan fuentes de la API de google */
 }
 
 .form-control label {
-  color: #777;
+  color: white;
   display: block;
   margin-bottom: 5px;
 }
 
-.form-control input {
+.form-control input, textarea {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   display: block;
@@ -547,7 +547,7 @@ Tambien se importan fuentes de la API de google */
 /* CSS cuando estamos sobre el campo del formulario */
 .form-control input:focus {
   outline: 0;
-  border-color: #777;
+  border-color:#777;
 }
 /*Color borde campo cuando es correcto*/
 .form-control.success input {

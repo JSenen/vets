@@ -360,7 +360,7 @@
             <!-- FORMULARIO -->
             <!-- Se usa la API de validación HTML junto con javascript para validacion email-->
             <div class="sobrenosotros--formulario">
-              <form id="form" class="form">
+              <form id="form" class="form"  method="post" action="mailto:cortafinal@gmail.com" enctype="text/plain">
                   <h2>Contacta con nosotros</h2>
                   <div class="form-control">
                     <label for="nombre">Nombre</label>
@@ -379,14 +379,12 @@
                   </div>
                   <div class="form-control">
                     <label for="Pregunta">Pregunta</label>
-                    <input
-                      type="text"
-                      id="pregunta"
-                      placeholder="Tu pregunta"
-                    />
+                    <textarea
+                    id="textarea" name="textarea" rows="4" cols="43" style="resize:none;" placeholder="Escribe tu comentario..."
+                    ></textarea>
                     <small>Error message</small>
                   </div>
-                  <button type="submit">Enviar</button>
+                  <button type="submit" value="Send">Enviar</button>
                 </form>
            
          
