@@ -655,7 +655,20 @@ background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
 background-size: 100%; }
 
 .container-lpd{
-  display: block;
-  text-align: justify;
-  padding: 15rem;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.container-lpd_text{
+  border: solid 2px var(--background-color);
+  border-radius: 8%;
+  padding: 8rem;
+  font-family: var(--fuenteParrafos);
+  background-color:  #fdf5e6 ;
+}
+
+.container-lpd_text h2 {
+  color: var(--background-color);
+  text-align: center;
+
 }
