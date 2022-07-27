@@ -119,6 +119,9 @@ b {
   max-width: 125px;
 }
 
+.navbar-icons a{
+  color: var(--blanco);
+}
 
 .container-navsecond {
     display: flex;
