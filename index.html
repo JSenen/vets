@@ -360,21 +360,21 @@
             <!-- FORMULARIO -->
             <!-- Se usa la API de validación HTML junto con javascript para validacion email-->
             <div class="sobrenosotros--formulario">
-              <form id="form" class="form"  method="post" action="mailto:cortafinal@gmail.com" enctype="text/plain">
+              <form id="form" class="form"  method="post" action="sendmail.php" enctype="text/plain">
                   <h2>Contacta con nosotros</h2>
                   <div class="form-control">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Nombre" />
+                    <input type="text" name="name" id="nombre" placeholder="Nombre" />
                     <small>Error message</small>
                   </div>
                   <div class="form-control">
                     <label for="email">Email</label>
-                    <input type="text" id="mail" placeholder="Correo electrónico" />
+                    <input type="text" name="mail" id="mail" placeholder="Correo electrónico" />
                     <small>Error message</small>
                   </div>
                   <div class="form-control">
                     <label for="Telefono">Telefono</label>
-                    <input type="tel" id="telefono" placeholder="Telefono" />
+                    <input type="tel" name="phone" id="telefono" placeholder="Telefono" />
                     <small>Error message</small>
                   </div>
                   <div class="form-control">
