@@ -675,7 +675,8 @@ background-size: 100%; }
   border-radius: 8%;
   padding: 8rem;
   font-family: var(--fuenteParrafos);
-  background-color:  #fdf5e6 ;
+  
+  background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(70,138,214,1) 0%, rgba(134,231,214,1) 90% );
 }
 
 .container-lpd_text h2 {
