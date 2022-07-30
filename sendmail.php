@@ -15,7 +15,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['textarea'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'info@clinicavets.com';
+$para = 'cortafinal@gmail.com';
 $asunto = 'Mensaje desde la Pagina Web';
 
 mail($para, $asunto, utf8_decode($message), $header);
