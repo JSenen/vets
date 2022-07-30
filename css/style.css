@@ -613,7 +613,11 @@ Tambien se importan fuentes de la API de google */
   margin: 10px auto;
   padding: 30px 30px;
   max-width: 1000px; 
-  
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-container b{
+  color:var(--negro);
 }
 .testimonial-container2 {
   display:flex;
@@ -625,6 +629,8 @@ Tambien se importan fuentes de la API de google */
   margin: 10px auto;
   padding: 30px 30px;
   max-width: 1000px; 
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -632,21 +638,23 @@ Tambien se importan fuentes de la API de google */
 .testimonial-container_user img,
 .testimonial-container_user2 img{
   border-radius: 50%;
-  max-width: auto;
+  max-width:auto;
 
 }
 
 .testimonial-container_text {
   font-family: var(--fuenteParrafos);
-  font-size: 2rem;
-  margin-left: 1.2rem;
+  font-size: 1.8rem;
+  margin-left: 1.5rem;
   text-align: justify;
-  margin:auto 30px;
+  margin:auto 20px;
 }
 .testimonial-container_text2 {
+  font-family: var(--fuenteParrafos);
+  font-size: 1.8rem;
   margin-right: 1.2rem;
   text-align: justify;
-  margin:auto 30px;
+  margin:auto 20px;
 }
 
 /** ICON8.COM  icono Instagram www.icon8.com */
